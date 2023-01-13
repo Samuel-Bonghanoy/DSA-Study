@@ -40,7 +40,7 @@ int main(void) {
     //variables for command selection, number input, and position selection
     int command;
     int elem, pos;
-
+    int x;
     //return value
     int ret;
     
@@ -50,6 +50,8 @@ int main(void) {
     
     do {
       system("cls");
+      printf("%d", count);
+      printf("%d", x);
       printf("\n-------------------");
       printf("\n 1  - Initialize/reset array");
       printf("\n 2  - Display array");
@@ -199,6 +201,7 @@ int main(void) {
 
 /* WRITE YOUR CODES HERE! */
 void initialize(int arr[], int* count){
+    printf("%d", *count);
 	for (int i = 0; i < *count; i++)
         arr[i] = 0;
 

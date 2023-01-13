@@ -308,8 +308,8 @@ int main(void)
   // printf("First: %d\n", first->data);
   insert(first, 0, 10);
   insert(first, 1, 20);
-  insert(first, 2, 20);
-  insert(first, 3, 30);
+  insert(first, 2, 10);
+  insert(first, 3, 10);
   insert(first, 4, 40);
   insert(first, 5, 50);
   // insertFront(first, 5);
@@ -318,11 +318,11 @@ int main(void)
 
   Display(first);
 
-  delete(first, 4);
+  // delete(first, 4);
 
-  Display(first);
+  // Display(first);
 
-  printf("%d\n", isSorted(first));
+  // printf("%d\n", isSorted(first));
 
   removeDuplicate(first);
   Display(first);
