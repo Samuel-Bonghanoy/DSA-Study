@@ -251,7 +251,7 @@ void removeDuplicate(struct Node *p)
   }
 }
 
-void Reverse1(struct Node *p) //shifting elements
+void Reverse1(struct Node *p) //shifting p->data to reverse linked
 {
   int *A, i = 0;
   struct Node *q = p;
@@ -276,7 +276,7 @@ void Reverse1(struct Node *p) //shifting elements
   }
 }
 
-void Reverse2(struct Node *p) //shifting links with sliding
+void Reverse2(struct Node *p) //shifting links with sliding pointers
 {
  struct Node *q = NULL, *r=NULL;
 
@@ -290,7 +290,7 @@ void Reverse2(struct Node *p) //shifting links with sliding
  first = q;
 }
 
-void Reverse3(struct Node *q,struct Node *p)
+void Reverse3(struct Node *q,struct Node *p) //recursive reversing with sliding pointers
 {
  if(p)
  {
