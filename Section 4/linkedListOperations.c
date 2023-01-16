@@ -24,7 +24,6 @@ void create(int A[], int n) //where n is the size
     last->next=t;
     last=t;
   }
-
 }
 
 void Display(struct Node *p)
